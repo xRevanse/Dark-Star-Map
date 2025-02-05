@@ -35,11 +35,11 @@
   padding: 8px;
   margin-bottom: 5px;
   background: #dddddd;
-  border: 1px solid #020202;
+  border: 1px solid #cc4e01;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 #markerList li:hover {
-  background: #dddddd;
+  background: #cc4e01;
 }
