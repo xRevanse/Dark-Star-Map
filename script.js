@@ -3,7 +3,7 @@
 var map = L.map('map', {
   crs: L.CRS.Simple,
   minZoom: -5,
-  maxZoom: 5,
+  maxZoom: 5
 });
 
 // Ustal rzeczywiste wymiary obrazu mapy (przykładowo 2000 x 1500 pikseli)
