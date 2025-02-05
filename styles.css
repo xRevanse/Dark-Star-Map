@@ -1,0 +1,45 @@
+/* Styl dla mapy - zostawia miejsce na panel boczny */
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 250px; /* szerokość panelu bocznego */
+}
+
+/* Panel boczny */
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 230px;
+  background-color: #111111;
+  padding: 15px;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#sidebar h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Lista markerów */
+#markerList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#markerList li {
+  padding: 8px;
+  margin-bottom: 5px;
+  background: #dddddd;
+  border: 1px solid #cc4e01;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#markerList li:hover {
+  background: #cc4e01;
+}
